@@ -11,7 +11,7 @@
 ;;;
 ;;; (0) check js-program-name variable that can run your environment.
 ;;;
-;;; (1) modify .emacs to use js2-mode 
+;;; (1) modify .emacs to use js2-mode (http://code.google.com/p/js2-mode/)
 ;;;     for example :
 ;;;
 ;;;    (autoload 'js2-mode "js2-mode" nil t)
@@ -45,10 +45,10 @@
 (defvar js-program-name "rhino"
   "*Program invoked by the run-js command")
 
-(defvar inferior-js-first-prompt-pattern "^js(.*)[0-9:]+0> *"
+(defvar inferior-js-first-prompt-pattern "^js> *"
   "first prompt regex pattern of js interpreter.")
 
-(defvar inferior-js-prompt-pattern "^\\(js(.*)[0-9:]+[>*\"'] *\\)+"
+(defvar inferior-js-prompt-pattern "^js> *"
   "prompt regex pattern of js interpreter.")
 
 ;;
