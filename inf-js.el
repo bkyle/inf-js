@@ -1,11 +1,10 @@
 ;;; -*-Emacs-Lisp-*-
 ;;;
-;;;  $Id: inf-js.el,v 1.6.2.1 2004/07/27 07:51:28 matz Exp $
-;;;  $Author: matz $
-;;;  $Date: 2004/07/27 07:51:28 $
+;;; Version: 0.1
+;;; Author: Bryan Kyle <bryan.kyle@gmail.com>
 ;;;
 ;;; Inferior Javascript Mode - javascript process in a buffer.
-;;;                            adapted from inf-ruby.el
+;;;                            adapted from inf-ruby.el by matz.
 ;;;
 ;;; Usage:
 ;;;
