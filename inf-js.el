@@ -1,12 +1,11 @@
-;;; -*-Emacs-Lisp-*-
+;;; inf-js.el --- javascript process in a buffer
 ;;;
 ;;; Version: 0.1
 ;;; Author: Bryan Kyle <bryan.kyle@gmail.com>
 ;;;
-;;; Inferior Javascript Mode - javascript process in a buffer.
-;;;                            adapted from inf-ruby.el by matz.
+;;; Commentary:
 ;;;
-;;; Usage:
+;;; Javascript process in a buffer adapted from inf-ruby.el by matz.
 ;;;
 ;;; (0) check js-program-name variable that can run your environment.
 ;;;
@@ -24,6 +23,8 @@
 ;;;          '(lambda ()
 ;;;             (inf-js-keys)))
 ;;;
+
+;;; Code:
 
 (require 'comint)
 (require 'compile)
